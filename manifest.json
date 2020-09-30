@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Gmail Email Deleter",
+    "description": "This extension will find and delete all emails before a certain provided date.",
+    "version": "0.1.1",
+  
+    "browser_action": {
+     "default_popup": "popup.html"
+    },
+    "permissions": [
+     "activeTab"
+     ]
+  }
